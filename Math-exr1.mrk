@@ -1,0 +1,72 @@
+
+
+//\documentclass{article}
+!tex
+!title Example Math - Exr.1 
+!author Opensource
+!date Jan. 2019
+
+\usepackage{amsmath}
+
+\newcommand\myeq{\mathrel{\stackrel{\makebox[0pt]{\mbox{\normalfont\tiny def}}}{=}}}
+
+\begin{document}
+
+!maketitle 
+
+
+!section Examples 
+
+Some matrix usage as follows:  
+
+\begin{pmatrix}
+a & b & c \\
+c & d & e \\
+f & g & h
+\end{pmatrix}
+
+
+Some text using text ($\stackrel{\text{-}}{1} \stackrel{\text{-}}{1} \stackrel{\text{ }}{0}$) is indicated here.
+
+Some alt. text using math ($\stackrel{-}{1} \stackrel{-}{1} \stackrel{ }{0}$) is indicated here.
+
+
+
+Further examples are given as follows:
+
+$ $\overrightarrow{\boldsymbol{x}} \rightarrow x_i$ $
+
+
+$ $\overrightarrow{x} \Rightarrow x_i$ $
+
+$ $\overrightarrow{x} \rightarrow x_i$ $
+
+
+\begin{align*}
+a &\myeq b \\
+  &=c \\
+  &= d.
+\end{align*}
+
+!box   my equation 
+
+!equ   \boxed{   my equation  }
+
+
+$\stackrel{\text{sometext}}{=}$
+
+
+( $\stackrel{\text{-}}{1}$ $\stackrel{\text{-}}{1}$ $\stackrel{\text{ }}{0}$ )
+
+
+$  exp \left(  1  +  1 \right) $ 
+
+
+
+
+
+\end{document}
+
+
+
+
